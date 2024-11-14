@@ -1,0 +1,17 @@
+[
+    {
+        "model": "accounts.user",
+        "pk": 1,
+        "fields": {
+            "username": "einstein.mokua",
+            "first_name": "Einstein",
+            "last_name": "Mokua",
+            "is_active": true,
+            "is_staff": true,
+            "is_superuser": true,
+            "date_joined": "2024-03-14T00:00:00Z",
+            "role": "ADMIN",
+            "password": "pbkdf2_sha256$720000$GA1CZHmBRhFlQbUfvbJVgY$FG0D0s+X4VxVmQsdRzizsVx7RJrJZtXXPm1i+IFKt8Q="
+        }
+    }
+]

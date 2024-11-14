@@ -1,0 +1,22 @@
+[
+    {
+        "model": "loans.loantype",
+        "pk": 1,
+        "fields": {
+            "name": "Member Loan",
+            "category": "MEMBER",
+            "interest_rate": "3.00",
+            "description": "Standard loan for members with 3% monthly interest rate"
+        }
+    },
+    {
+        "model": "loans.loantype",
+        "pk": 2,
+        "fields": {
+            "name": "Non-Member Loan",
+            "category": "NON_MEMBER",
+            "interest_rate": "10.00",
+            "description": "Loan for non-members with 10% monthly interest rate"
+        }
+    }
+]

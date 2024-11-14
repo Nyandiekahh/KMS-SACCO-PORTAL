@@ -1,0 +1,204 @@
+[
+    {
+        "model": "accounts.user",
+        "pk": 1,
+        "fields": {
+            "username": "einstein.mokua",
+        "first_name": "Einstein",
+        "last_name": "Mokua",
+        "is_active": true,
+        "date_joined": "2024-03-14T00:00:00Z",
+        "role": "ADMIN",
+        "is_staff": true,
+        "is_superuser": true
+    }
+},
+    {
+        "model": "accounts.member",
+        "pk": 1,
+        "fields": {
+            "user": 1,
+            "member_number": "KMS001",
+            "total_shares": "7500.00",
+            "share_percentage": "16.30",
+            "membership_status": "ACTIVE",
+            "total_debt": "10500.00",
+            "joining_date": "2024-03-14"
+        }
+    },
+    {
+        "model": "accounts.user",
+        "pk": 2,
+        "fields": {
+            "username": "oscar.kipkorir",
+            "first_name": "Oscar",
+            "last_name": "Kipkorir",
+            "is_active": true,
+            "date_joined": "2024-03-14T00:00:00Z",
+            "role": "MEMBER"
+        }
+    },
+    {
+        "model": "accounts.member",
+        "pk": 2,
+        "fields": {
+            "user": 2,
+            "member_number": "KMS002",
+            "total_shares": "7500.00",
+            "share_percentage": "16.30",
+            "membership_status": "ACTIVE",
+            "total_debt": "0.00",
+            "joining_date": "2024-03-14"
+        }
+    },
+    {
+        "model": "accounts.user",
+        "pk": 3,
+        "fields": {
+            "username": "polycarp.kesa",
+            "first_name": "Polycarp",
+            "last_name": "Kesa",
+            "is_active": true,
+            "date_joined": "2024-03-14T00:00:00Z",
+            "role": "MEMBER"
+        }
+    },
+    {
+        "model": "accounts.member",
+        "pk": 3,
+        "fields": {
+            "user": 3,
+            "member_number": "KMS003",
+            "total_shares": "4500.00",
+            "share_percentage": "9.78",
+            "membership_status": "ACTIVE",
+            "total_debt": "12000.00",
+            "joining_date": "2024-03-14"
+        }
+    },
+    {
+        "model": "accounts.user",
+        "pk": 4,
+        "fields": {
+            "username": "david.gitonga",
+            "first_name": "David",
+            "last_name": "Gitonga",
+            "is_active": true,
+            "date_joined": "2024-03-14T00:00:00Z",
+            "role": "MEMBER"
+        }
+    },
+    {
+        "model": "accounts.member",
+        "pk": 4,
+        "fields": {
+            "user": 4,
+            "member_number": "KMS004",
+            "total_shares": "7500.00",
+            "share_percentage": "16.30",
+            "membership_status": "ACTIVE",
+            "total_debt": "0.00",
+            "joining_date": "2024-03-14"
+        }
+    },
+    {
+        "model": "accounts.user",
+        "pk": 5,
+        "fields": {
+            "username": "sonia.murage",
+            "first_name": "Sonia",
+            "last_name": "Murage",
+            "is_active": true,
+            "date_joined": "2024-03-14T00:00:00Z",
+            "role": "MEMBER"
+        }
+    },
+    {
+        "model": "accounts.member",
+        "pk": 5,
+        "fields": {
+            "user": 5,
+            "member_number": "KMS005",
+            "total_shares": "4000.00",
+            "share_percentage": "8.70",
+            "membership_status": "ACTIVE",
+            "total_debt": "7000.00",
+            "joining_date": "2024-03-14"
+        }
+    },
+    {
+        "model": "accounts.user",
+        "pk": 6,
+        "fields": {
+            "username": "bradley.ndege",
+            "first_name": "Bradley",
+            "last_name": "Ndege",
+            "is_active": true,
+            "date_joined": "2024-03-14T00:00:00Z",
+            "role": "MEMBER"
+        }
+    },
+    {
+        "model": "accounts.member",
+        "pk": 6,
+        "fields": {
+            "user": 6,
+            "member_number": "KMS006",
+            "total_shares": "2500.00",
+            "share_percentage": "5.43",
+            "membership_status": "ACTIVE",
+            "total_debt": "0.00",
+            "joining_date": "2024-03-14"
+        }
+    },
+    {
+        "model": "accounts.user",
+        "pk": 7,
+        "fields": {
+            "username": "nelly.jepkemboi",
+            "first_name": "Nelly",
+            "last_name": "Jepkemboi",
+            "is_active": true,
+            "date_joined": "2024-03-14T00:00:00Z",
+            "role": "MEMBER"
+        }
+    },
+    {
+        "model": "accounts.member",
+        "pk": 7,
+        "fields": {
+            "user": 7,
+            "member_number": "KMS007",
+            "total_shares": "11000.00",
+            "share_percentage": "23.91",
+            "membership_status": "ACTIVE",
+            "total_debt": "0.00",
+            "joining_date": "2024-03-14"
+        }
+    },
+    {
+        "model": "accounts.user",
+        "pk": 8,
+        "fields": {
+            "username": "isaac.gitonga",
+            "first_name": "Isaac",
+            "last_name": "Gitonga",
+            "is_active": true,
+            "date_joined": "2024-03-14T00:00:00Z",
+            "role": "MEMBER"
+        }
+    },
+    {
+        "model": "accounts.member",
+        "pk": 8,
+        "fields": {
+            "user": 8,
+            "member_number": "KMS008",
+            "total_shares": "1500.00",
+            "share_percentage": "3.26",
+            "membership_status": "ACTIVE",
+            "total_debt": "0.00",
+            "joining_date": "2024-03-14"
+        }
+    }
+]
